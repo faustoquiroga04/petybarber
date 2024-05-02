@@ -261,10 +261,9 @@ footer {
 /* ----- Pagina Contacto ------ */
 
 .fondo-contacto {
-  background-image: url(/img/wall-of-dark-wood-seen-from-close-but-there-are-no-other-objects-no-reflection-only-the-wall-with.jpeg) !important;
+  background-image: url(/img/fondo-contacto.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100%;
 }
 
 .todo {
