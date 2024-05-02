@@ -261,7 +261,7 @@ footer {
 /* ----- Pagina Contacto ------ */
 
 .fondo-contacto {
-  background-image: url(/img/fondo-contacto.jpeg);
+  background-image: url(img/fondo-contacto.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
 }
