@@ -1,0 +1,349 @@
+
+/* Universal */
+
+h1 {
+  font-size: 20px;
+}
+
+.boton {
+  color: white;
+  background-color: #2660a4;
+}
+
+.boton:hover {
+  color: white;
+  background-color: #1b497c;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+
+/* ----- Barra de Navegacion ----- */
+.navbar {
+  background-color: #101419;
+  width: 100%;
+  /* background-color: #141B41; */
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  margin: 0 5px;
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+
+.navbar ul li::before {
+  content: "";
+  height: 2px;
+  width: 0%;
+  background: #2660a4;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  transition: 0.3s ease-out;
+}
+
+.navbar ul li:hover::before{
+  width: 100%;
+}
+
+@media (max-width: 991.5px) {
+
+  .nav-item {
+    margin: 0 auto !important;
+    width: 20%;
+  }
+
+  .nav-link:hover::before {
+    width: 30%;
+  }
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255);
+}
+
+
+/* Alineación del logo y el título */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand h1 {
+  margin: 0;
+  color: white;
+}
+
+
+/* ----- Footer ----- */
+
+.iconos-footer {
+  font-size: 45px;
+  color: white;
+}
+
+footer {
+  background-color: #101419;
+}
+
+/* ----- Index - Banner ----- */
+
+.banner {
+  background-image: url(banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 300px;
+}
+
+.carousel-item img {
+  min-height: 300px !important;
+  max-height: 500px !important;
+}
+
+/* ----- Index - Cortes Destacados ----- */
+
+.servicios-destacados {
+  background-color: #a48b65;
+}
+
+.servicios-destacados h2 {
+  margin: 50px 0 40px;
+}
+
+.servicios-destacados h3 {
+  margin-top: 15px;
+}
+
+.servicios-destacados p {
+  margin-bottom: 15px;
+}
+
+.servicio-destacado-1,
+.servicio-destacado-2,
+.servicio-destacado-3 {
+  max-width: 300px !important;
+  max-height: 500px !important;
+  margin: 10px 50px !important;
+  background-color: #101419;
+  color: white;
+}
+
+.servicio-destacado-1 img,
+.servicio-destacado-2 img,
+.servicio-destacado-3 img {
+  margin: 15px 0;
+}
+
+@media (max-width: 991.5px) {
+
+  .row {
+    justify-content: center !important;
+  }
+}
+
+/* ----- Index - Turno ----- */
+
+.turnos {
+  color: white;
+  background-color: #3d3f42;
+}
+
+.horarios-turno h3 {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.horarios-turno p {
+  font-size: 30px;
+}
+
+.boton-form-index {
+  width: 30%;
+}
+
+
+@media (max-width: 991.98px) {
+  .form-index {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .boton-form-index{
+    width: 40%;
+    margin: 0 auto;
+  }
+}
+
+/* ----- Index - Turno ----- */
+
+.turnos {
+  color: white;
+  background-color: #3d3f42;
+}
+
+.horarios-turno h3 {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.horarios-turno p {
+  font-size: 30px;
+}
+
+.boton-form-index {
+  width: 30%;
+}
+
+
+@media (max-width: 991.98px) {
+  .form-index {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .boton-form-index{
+    width: 40%;
+    margin: 0 auto;
+  }
+}
+
+/* Pagina Servicios */
+
+.servicios img {
+  max-width: 350px;
+  max-height: 400px;
+  margin: 0 20px;
+}
+
+.servicio-texto {
+  width: 50%; 
+  font-size: 25px;
+}
+
+@media (max-width: 991px) {
+  .cabello-masculino,
+  .cabello-femenino,
+  .dibujo,
+  .barba,
+  .cejas {
+    display: flex;
+    margin: 20px 0;
+    justify-content: center;
+    flex-flow: column wrap;
+  }
+  .servicio h3 {
+    margin-bottom: 20px !important;
+  }
+
+  .servicio-img {
+    order: -1;
+  }
+
+  .servicio-texto {
+    width: 95%;
+    margin: 20px auto !important;
+    text-align: center !important;
+    font-size: 20px;
+  }
+}
+
+
+/* ----- Pagina Contacto ------ */
+
+.fondo-contacto {
+  background-image: url(/img/wall-of-dark-wood-seen-from-close-but-there-are-no-other-objects-no-reflection-only-the-wall-with.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.todo {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+.ratio {
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.contacto-form {
+  width: 50%;
+  margin-left: 2rem;
+}
+
+.form-boton {
+  display: block;
+  margin: 20px;
+  max-width: 200px;
+}
+
+@media (max-width: 1100px) {
+  .todo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contacto-form {
+    margin-left: 0;
+    margin-top: 20px;
+    width: 80%;
+  }
+  
+  .ratio {
+    width: 70%;
+  }
+}
+
+/* ----- Pagina Cortes ----- */
+
+.cortes img {
+  max-width: 100%;
+  height: auto;
+}
+
+.cortes p {
+  margin-top: 20px;
+  padding: 15px; 
+  background-color: #f4f4f4;
+  font-size: 18px; 
+}
+
+@media (max-width: 767.5px) {
+  .cortes img {
+    width: 90%; 
+    margin-bottom: 20px;
+  }
+}
+
+
+/* ----- Pagina Nosotros ----- */
+
+.img-peluqueria {
+  height: 300px;
+}
+
+.contenedor-puntos {
+  width: 70%;
+}
+
+.contenedor-puntos p{
+  font-size: 25px;
+}
+
+@media (max-width: 991.5px){
+  .contenedor-puntos {
+    width: 90%;
+  }
+}
