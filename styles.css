@@ -264,6 +264,7 @@ footer {
   background-image: url(/img/wall-of-dark-wood-seen-from-close-but-there-are-no-other-objects-no-reflection-only-the-wall-with.jpeg) !important;
   background-size: cover;
   background-repeat: no-repeat;
+  height: 100%;
 }
 
 .todo {
