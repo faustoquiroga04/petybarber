@@ -1,0 +1,19 @@
+.img-peluqueria {
+    height: 300px;
+  }
+
+.contenedor-puntos {
+    width: 70%;
+    h3 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 25px;
+    }
+  }
+
+  @media (max-width: 991.5px){
+    .contenedor-puntos {
+      width: 90%;
+    }
+  }

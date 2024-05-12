@@ -1,0 +1,43 @@
+/* Universal */
+
+h1 {
+    font-size: 20px;
+  }
+  
+  .boton {
+    color: white;
+    background-color: #2660a4;
+  }
+  
+  .boton:hover {
+    color: white;
+    background-color: #1b497c;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  
+  /* ----- Barra de Navegacion ----- */
+  @import "layout/navigation";
+
+  /* ----- Footer ----- */
+  @import "layout/footer";
+
+  // Index
+  @import "views/home";
+  
+  /* Pagina Servicios */
+  @import "views/servicios";
+  
+  /* ----- Pagina Cortes ----- */
+  @import "views/cortes";
+
+  /* ----- Pagina Nosotros ----- */
+  @import "views/nosotros";
+
+  /* ----- Pagina Contacto ------ */
+  @import "views/contacto"
+  

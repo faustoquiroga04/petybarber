@@ -1,0 +1,53 @@
+.navbar {
+    background-color: #101419;
+    width: 100%;
+    .logo {
+        width: 80px;
+        height: 80px;
+        margin: 0 5px;
+      }
+
+    ul {
+        li {      
+        display: inline-block;
+        margin: 0 20px;
+        position: relative;
+            &::before {
+                content: "";
+                height: 2px;
+                width: 0%;
+                background: #2660a4;
+                position: absolute;
+                left: 0;
+                bottom: -3px;
+                transition: 0.3s ease-out;
+            }
+            &:hover::before {
+                width: 100%;
+            }
+        }
+    }
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    h1 {
+        margin: 0;
+        color: white;
+      }
+  }
+  
+  @media (max-width: 991.5px) {
+    .nav-item {
+      margin: 0 auto !important;
+      width: 20%;
+    }
+    .nav-link:hover::before {
+      width: 30%;
+    }
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255);
+  }

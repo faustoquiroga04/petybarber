@@ -1,0 +1,79 @@
+//Banner
+.banner {
+    background-image: url(banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+  }
+  
+  .carousel-item img {
+    min-height: 300px !important;
+    max-height: 500px !important;
+  }
+  
+  //Servicios Destacados
+  .servicios-destacados {
+    background-color: #a48b65;
+    h2 {
+        margin: 50px 0 40px;
+    }
+    h3 {
+        margin-top: 15px;
+    }
+    p {
+        margin-bottom: 15px;
+    }
+    .servicio-destacado {
+      max-width: 300px !important;
+      max-height: 500px !important;
+      margin: 10px 50px !important;
+      background-color: #101419;
+      color: white;
+      img {
+          margin: 15px 0;
+      }
+    }
+  }
+  
+  @media (max-width: 991.5px) {
+  
+    .row {
+      justify-content: center !important;
+    }
+  }
+  
+  //Turno
+  
+  .turnos {
+    color: white;
+    background-color: #3d3f42;
+
+    .horarios-turno {
+      h3 {
+        font-size: 35px;
+        font-weight: bold;
+      }
+      p {
+        font-size: 30px;
+      }
+    }
+    .boton-form-index {
+      width: 30%;
+    }
+    @media (max-width: 991.98px) {
+      .form-index {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+      }
+      .boton-form-index{
+        width: 40%;
+        margin: 0 auto;
+      }
+    }
+  }
+
+  
+  
+  
