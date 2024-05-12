@@ -1,17 +1,37 @@
-/* Universal */
 
-h1 {
-    font-size: 20px;
-  }
+  //Navegacion
+  @import "layout/navigation";
+
+  //Footer
+  @import "layout/footer";
+
+  //Index
+  @import "views/index";
   
+  //Pagina Servicios
+  @import "views/servicios";
+  
+  //Pagina Cortes 
+  @import "views/cortes";
+
+  //Pagina Nosotros
+  @import "views/nosotros";
+
+  //Pagina Contacto
+  @import "views/contacto";
+  
+
+  @import "utilities/variables";
+
+  /* Universal */
   .boton {
     color: white;
-    background-color: #2660a4;
+    background-color: $color-azul;
   }
   
   .boton:hover {
     color: white;
-    background-color: #1b497c;
+    background-color: $boton-hover;
   }
   
   ul {
@@ -19,25 +39,4 @@ h1 {
     padding: 0;
   }
   
-  
-  /* ----- Barra de Navegacion ----- */
-  @import "layout/navigation";
-
-  /* ----- Footer ----- */
-  @import "layout/footer";
-
-  // Index
-  @import "views/index";
-  
-  /* Pagina Servicios */
-  @import "views/servicios";
-  
-  /* ----- Pagina Cortes ----- */
-  @import "views/cortes";
-
-  /* ----- Pagina Nosotros ----- */
-  @import "views/nosotros";
-
-  /* ----- Pagina Contacto ------ */
-  @import "views/contacto"
   

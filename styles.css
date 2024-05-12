@@ -1,24 +1,7 @@
-/* Universal */
 h1 {
-  font-size: 20px;
+  font-size: 30px;
 }
 
-.boton {
-  color: white;
-  background-color: #2660a4;
-}
-
-.boton:hover {
-  color: white;
-  background-color: #1b497c;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-/* ----- Barra de Navegacion ----- */
 .navbar {
   background-color: #101419;
   width: 100%;
@@ -37,7 +20,7 @@ ul {
   content: "";
   height: 2px;
   width: 0%;
-  background: #2660a4;
+  background-color: #2660a4;
   position: absolute;
   left: 0;
   bottom: -3px;
@@ -66,10 +49,9 @@ ul {
   }
 }
 .navbar-dark .navbar-nav .nav-link {
-  color: rgb(255, 255, 255);
+  color: white;
 }
 
-/* ----- Footer ----- */
 footer {
   background-color: #101419;
 }
@@ -146,7 +128,6 @@ footer {
   }
 }
 
-/* Pagina Servicios */
 .servicio p {
   width: 50%;
   font-size: 25px;
@@ -185,7 +166,6 @@ footer {
     font-size: 20px;
   }
 }
-/* ----- Pagina Cortes ----- */
 .cortes img {
   max-width: 100%;
   height: auto;
@@ -202,7 +182,6 @@ footer {
     width: 90%;
   }
 }
-/* ----- Pagina Nosotros ----- */
 .img-peluqueria {
   height: 300px;
 }
@@ -222,9 +201,8 @@ footer {
     width: 90%;
   }
 }
-/* ----- Pagina Contacto ------ */
 .fondo-contacto {
-  background-image: url(./img/fondo-contacto.jpeg);
+  background-image: url(../img/fondo-contacto.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -263,6 +241,21 @@ footer {
   .ratio {
     width: 70%;
   }
+}
+/* Universal */
+.boton {
+  color: white;
+  background-color: #2660a4;
+}
+
+.boton:hover {
+  color: white;
+  background-color: #1b497c;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
 }
 
 /*# sourceMappingURL=styles.css.map */

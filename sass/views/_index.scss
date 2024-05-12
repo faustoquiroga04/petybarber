@@ -1,3 +1,5 @@
+@import "../utilities/variables";
+
 //Banner
 .banner {
     background-image: url(banner.png);
@@ -13,7 +15,7 @@
   
   //Servicios Destacados
   .servicios-destacados {
-    background-color: #a48b65;
+    background-color: $color-secundario;
     h2 {
         margin: 50px 0 40px;
     }
@@ -27,7 +29,7 @@
       max-width: 300px !important;
       max-height: 500px !important;
       margin: 10px 50px !important;
-      background-color: #101419;
+      background-color: $color-primario;
       color: white;
       img {
           margin: 15px 0;
@@ -36,7 +38,6 @@
   }
   
   @media (max-width: 991.5px) {
-  
     .row {
       justify-content: center !important;
     }
@@ -46,7 +47,7 @@
   
   .turnos {
     color: white;
-    background-color: #3d3f42;
+    background-color: $color-terciario;
 
     .horarios-turno {
       h3 {

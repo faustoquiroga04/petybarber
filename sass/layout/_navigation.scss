@@ -1,12 +1,18 @@
+@import "../utilities/variables";
+
+h1 {
+  font-size: 30px;
+}
+
 .navbar {
-    background-color: #101419;
+    background-color: $color-primario;
     width: 100%;
     .logo {
         width: 80px;
         height: 80px;
         margin: 0 5px;
       }
-
+      
     ul {
         li {      
         display: inline-block;
@@ -16,7 +22,7 @@
                 content: "";
                 height: 2px;
                 width: 0%;
-                background: #2660a4;
+                background-color: $color-azul;
                 position: absolute;
                 left: 0;
                 bottom: -3px;
@@ -49,5 +55,5 @@
   }
   
   .navbar-dark .navbar-nav .nav-link {
-    color: rgba(255, 255, 255);
+    color: white;
   }
