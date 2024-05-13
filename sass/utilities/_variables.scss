@@ -4,12 +4,12 @@ $color-terciario: #3d3f42;
 $color-azul: #2660a4;
 $boton-hover: #1b497c;
 
-@mixin boton {
+.boton {
     color: white;
     background-color: $color-azul;
 }
 
-@mixin boton-hover {
+.boton:hover {
     color: white;
     background-color: $boton-hover;
 }

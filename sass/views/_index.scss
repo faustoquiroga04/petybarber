@@ -1,16 +1,7 @@
 @import "../utilities/variables";
 
 //Banner
-.banner {
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
   .carousel-item  {
-    .banner-desktop {
-    background-repeat: no-repeat;
-    background-size: cover;
-    }
     .banner-mobile {
       display: none;
     }
@@ -25,7 +16,7 @@
   }
 
   
-  //Servicios Destacados
+//Servicios Destacados
   .servicios-destacados {
     background-color: $color-secundario;
     h2 {
@@ -55,14 +46,7 @@
     }
   }
 
-  @media (max-width: 499.5px){
-    .carousel-item img {
-      
-    }
-  }
-  
-  //Turno
-  
+//Turno
   .turnos {
     color: white;
     background-color: $color-terciario;

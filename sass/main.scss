@@ -6,21 +6,7 @@
   @import "views/cortes";
   @import "views/nosotros";
   @import "views/contacto";
-  
   @import "utilities/variables";
-
-  /* Universal */
-  .boton { 
-    @include boton;
-  }
   
-  .boton:hover {
-    @include boton-hover;
-  }
-  
-  ul {
-    list-style: none;
-    padding: 0;
-  }
   
   
