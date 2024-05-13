@@ -1,37 +1,21 @@
 
-  //Navegacion
   @import "layout/navigation";
-
-  //Footer
   @import "layout/footer";
-
-  //Index
   @import "views/index";
-  
-  //Pagina Servicios
   @import "views/servicios";
-  
-  //Pagina Cortes 
   @import "views/cortes";
-
-  //Pagina Nosotros
   @import "views/nosotros";
-
-  //Pagina Contacto
   @import "views/contacto";
   
-
   @import "utilities/variables";
 
   /* Universal */
-  .boton {
-    color: white;
-    background-color: $color-azul;
+  .boton { 
+    @include boton;
   }
   
   .boton:hover {
-    color: white;
-    background-color: $boton-hover;
+    @include boton-hover;
   }
   
   ul {
