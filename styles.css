@@ -64,7 +64,8 @@ footer {
 .banner {
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 300px;
+  min-height: 300px !important;
+  max-height: 500px !important;
 }
 
 .carousel-item img {
