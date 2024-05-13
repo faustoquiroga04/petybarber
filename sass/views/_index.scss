@@ -4,14 +4,26 @@
 .banner {
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 300px !important;
-    max-height: 500px !important;
   }
   
-  .carousel-item img {
-    min-height: 300px !important;
-    max-height: 500px !important;
+  .carousel-item  {
+    .banner-desktop {
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    .banner-mobile {
+      display: none;
+    }
   }
+  @media screen and (max-width: 699.5px) {
+    .banner-desktop {
+      display: none;
+    }
+    .banner-mobile {
+      display: block !important;
+    }
+  }
+
   
   //Servicios Destacados
   .servicios-destacados {
@@ -41,7 +53,12 @@
     .row {
       justify-content: center !important;
     }
-    .row {}
+  }
+
+  @media (max-width: 499.5px){
+    .carousel-item img {
+      
+    }
   }
   
   //Turno
