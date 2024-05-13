@@ -1,111 +1,168 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/15b4d27d66.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/15b4d27d66.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../styles.css" />
     <title>Contacto</title>
-    <link rel="icon" href="../img/logo.ico">
+    <link rel="icon" href="../img/logo.ico" />
   </head>
 
-<body>
-    <div class="fondo-contacto">
-        <header>
-            <!-- Inicia Nav -->
-            <div class="container-fluid p-0">
-                <nav class="navbar navbar-expand-lg navbar-dark">
-                    <a href="../index.html" class="navbar-brand ms-3">
-                        <img class="logo" src="../img/logo.jpg" alt="logo"> PetyBarber
-                    </a>
-                    <button class="navbar-toggler me-4" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="toggleMobileMenu">
-                        <ul class="navbar-nav ms-auto me-lg-4 text-center">
-                            <li class="nav-item me-5"><a class="nav-link" href="../index.html">Inicio</a></li>
-                            <li class="nav-item me-5"><a class="nav-link" href="./servicios.html">Servicios</a></li>
-                            <li class="nav-item me-5"><a class="nav-link" href="./cortes.html">Cortes</a></li>
-                            <li class="nav-item me-5"><a class="nav-link" href="./nosotros.html">Nosotros</a></li>
-                            <li class="nav-item me-5"><a class="nav-link" href="./contacto.html">Contacto</a></li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-            <!-- Termina Nav -->
-        </header>
-        <main>
-            <div class="contacto container-fluid">
-                <div class="todo row align-items-center">
-                    <div class="contacto-form col-lg-6">
-                        <form>
-                            <h2 class="text-center m-5 text-light">Detalla tu Consulta</h2>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-floating mb-3 ">
-                                        <input type="text" class="form-control" id="floatingInput" placeholder="nombre">
-                                        <label for="floatingInput">Nombre</label>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-floating mb-3">
-                                        <input type="tel" class="form-control" id="floatingInput" placeholder="numero">
-                                        <label for="floatingInput">Telefono</label>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form-floating mb-3">
-                                <input type="email" class="form-control" id="floatingInput"
-                                    placeholder="name@example.com">
-                                <label for="floatingInput">Correo Electronico</label>
-                            </div>
-                            <div class="form-floating">
-                                <textarea class="form-control" placeholder="Deja tu consulta aqui"
-                                    id="floatingTextarea2" style="height: 100px"></textarea>
-                                <label for="floatingTextarea2">Consulta</label>
-                            </div>
-                            <a href="#" class="d-grid gap-2 mx-auto form-boton boton btn">Enviar
-                                Consulta</a>
-                        </form>
-                    </div>
-
-                    <div class="contacto-datos col-lg-4 ratio ratio-1x1">
-                        <iframe class="maps"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d857.7641032245531!2d-60.22481104727367!3d-33.33499325172694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b767919e79097d%3A0x52a7a449cb226101!2sAv.%20Mariano%20Moreno%20101%2C%20San%20Nicol%C3%A1s%20de%20Los%20Arroyos%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1711408769057!5m2!1ses-419!2sar"
-                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade">
-                        </iframe>
-                    </div>
+  <body class="fondo-contacto">
+    <header>
+      <!-- Inicia Nav -->
+      <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a href="../index.html" class="navbar-brand ms-3">
+            <img class="logo" src="../img/logo.jpg" alt="logo" /> PetyBarber
+          </a>
+          <button
+            class="navbar-toggler me-4"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#toggleMobileMenu"
+            aria-controls="toggleMobileMenu"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="toggleMobileMenu">
+            <ul class="navbar-nav ms-auto me-lg-4 text-center">
+              <li class="nav-item me-5">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link" href="./servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link" href="./cortes.html">Cortes</a>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link" href="./nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <!-- Termina Nav -->
+    </header>
+    <main>
+      <div class="contacto container-fluid">
+        <div class="todo row align-items-center">
+          <div class="contacto-form col-lg-6">
+            <form>
+              <h2 class="text-center m-5 text-light">Detalla tu Consulta</h2>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-floating mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="floatingInput"
+                      placeholder="nombre"
+                    />
+                    <label for="floatingInput">Nombre</label>
+                  </div>
                 </div>
-            </div>
-        </main>
-        <!-- Inicia Footer -->
-        <footer class="py-5">
-            <div class="container text-light text-center">
-                <p class="display-5 mb-3">PetyBarber</p>
-                <div class="d-flex justify-content-center gap-5 col-lg-12 w-100">
-                    <a class="iconos-footer" target="_blank" href="#">
-                        <i class="fa-brands fa-whatsapp"></i>
-                    </a>
-                    <a class="iconos-footer" target="_blank" href="https://www.instagram.com/pety_barber/#">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-                    <a class="iconos-footer" target="_blank" href="https://www.tiktok.com/@pety_barber">
-                        <i class="fa-brands fa-tiktok"></i>
-                    </a>
+                <div class="col-md-6">
+                  <div class="form-floating mb-3">
+                    <input
+                      type="tel"
+                      class="form-control"
+                      id="floatingInput"
+                      placeholder="numero"
+                    />
+                    <label for="floatingInput">Telefono</label>
+                  </div>
                 </div>
-                <small class="text-white-50">&copy; Copyright by PetyBarber. Todos los derechos reservados.</small>
-            </div>
-        </footer>
-        <!-- Termina Footer -->
-        <script 
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-        </script>
-    </div>
-</body>
+              </div>
+              <div class="form-floating mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="floatingInput"
+                  placeholder="name@example.com"
+                />
+                <label for="floatingInput">Correo Electronico</label>
+              </div>
+              <div class="form-floating">
+                <textarea
+                  class="form-control"
+                  placeholder="Deja tu consulta aqui"
+                  id="floatingTextarea2"
+                  style="height: 100px"
+                ></textarea>
+                <label for="floatingTextarea2">Consulta</label>
+              </div>
+              <a href="#" class="d-grid gap-2 mx-auto form-boton boton btn"
+                >Enviar Consulta</a
+              >
+            </form>
+          </div>
 
+          <div class="contacto-datos col-lg-4 ratio ratio-1x1">
+            <iframe
+              class="maps"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d857.7641032245531!2d-60.22481104727367!3d-33.33499325172694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b767919e79097d%3A0x52a7a449cb226101!2sAv.%20Mariano%20Moreno%20101%2C%20San%20Nicol%C3%A1s%20de%20Los%20Arroyos%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1711408769057!5m2!1ses-419!2sar"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            >
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Inicia Footer -->
+    <footer class="py-5">
+      <div class="container text-light text-center">
+        <p class="display-5 mb-3">PetyBarber</p>
+        <div class="d-flex justify-content-center gap-5 col-lg-12 w-100">
+          <a class="iconos-footer" target="_blank" href="#">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+          <a
+            class="iconos-footer"
+            target="_blank"
+            href="https://www.instagram.com/pety_barber/#"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a
+            class="iconos-footer"
+            target="_blank"
+            href="https://www.tiktok.com/@pety_barber"
+          >
+            <i class="fa-brands fa-tiktok"></i>
+          </a>
+        </div>
+        <small class="text-white-50"
+          >&copy; Copyright by PetyBarber. Todos los derechos reservados.</small
+        >
+      </div>
+    </footer>
+    <!-- Termina Footer -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
