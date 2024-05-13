@@ -272,7 +272,7 @@ footer {
 }
 
 .fondo-contacto {
-  background-image: url(../../img/fondo-contacto.jpeg);
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.7), rgba(255, 255, 255, 0)), url(https://th.bing.com/th/id/OIG3.0AQ.QTBe6BONY4UtSnG1?w=1024&h=1024&rs=1&pid=ImgDetMain);
   background-size: cover;
   background-repeat: no-repeat;
 }
