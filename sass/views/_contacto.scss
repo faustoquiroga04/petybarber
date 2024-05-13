@@ -1,14 +1,13 @@
 @import "../utilities/variables";
+@import "../utilities/mixins";
 .fondo-contacto {
     background-image: url(../../img/fondo-contacto.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
   }
   .todo {
-    display: flex;
-    justify-content: center;
+    @include flexbox-center;
     margin: 50px 0;
-    
   }
   .contacto-form {
     width: 50%;

@@ -185,9 +185,9 @@ footer {
   .barba,
   .cejas {
     display: flex;
-    margin: 20px 0;
     justify-content: center;
     flex-flow: column wrap;
+    margin: 20px 0;
   }
   .servicio h3 {
     margin-bottom: 20px !important;

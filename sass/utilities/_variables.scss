@@ -2,7 +2,7 @@ $color-primario:#101419;
 $color-secundario: #a48b65;
 $color-terciario: #3d3f42;
 $color-azul: #2660a4;
-$boton-hover: #1b497c;
+$azul-oscuro: #1b497c;
 
 .boton {
     color: white;
@@ -11,6 +11,5 @@ $boton-hover: #1b497c;
 
 .boton:hover {
     color: white;
-    background-color: $boton-hover;
+    background-color: $azul-oscuro;
 }
-
