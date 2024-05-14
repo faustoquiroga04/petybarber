@@ -133,7 +133,7 @@ footer {
 }
 .turnos {
   color: white;
-  background-color: #3d3f42;
+  background-color: #232d38;
 }
 .turnos .horarios-turno h3 {
   font-size: 35px;
@@ -227,8 +227,8 @@ footer {
   font-size: 18px;
 }
 
-.fondo-cortes {
-  background: linear-gradient(45deg, rgba(255, 0, 0, 0.5) 0%, rgba(255, 0, 0, 0.5) 5%, rgba(255, 255, 255, 0.5) 5%, rgba(255, 255, 255, 0.5) 10%, rgba(0, 0, 255, 0.5) 10%, rgba(0, 0, 255, 0.5) 15%, rgba(255, 0, 0, 0.5) 15%, rgba(255, 0, 0, 0.5) 20%, rgba(255, 255, 255, 0.5) 20%, rgba(255, 255, 255, 0.5) 25%, rgba(0, 0, 255, 0.5) 25%, rgba(0, 0, 255, 0.5) 30%, rgba(255, 0, 0, 0.5) 30%, rgba(255, 0, 0, 0.5) 35%, rgba(255, 255, 255, 0.5) 35%, rgba(255, 255, 255, 0.5) 40%, rgba(0, 0, 255, 0.5) 40%, rgba(0, 0, 255, 0.5) 45%, rgba(255, 0, 0, 0.5) 45%, rgba(255, 0, 0, 0.5) 50%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0.5) 55%, rgba(0, 0, 255, 0.5) 55%, rgba(0, 0, 255, 0.5) 60%, rgba(255, 0, 0, 0.5) 60%, rgba(255, 0, 0, 0.5) 65%, rgba(255, 255, 255, 0.5) 65%, rgba(255, 255, 255, 0.5) 70%, rgba(0, 0, 255, 0.5) 70%, rgba(0, 0, 255, 0.5) 75%, rgba(255, 0, 0, 0.5) 75%, rgba(255, 0, 0, 0.5) 80%, rgba(255, 255, 255, 0.5) 80%, rgba(255, 255, 255, 0.5) 85%, rgba(0, 0, 255, 0.5) 85%, rgba(0, 0, 255, 0.5) 90%, rgba(255, 0, 0, 0.5) 90%, rgba(255, 0, 0, 0.5) 95%, rgba(255, 255, 255, 0.5) 95%, rgba(255, 255, 255, 0.5) 100%);
+.corte-1 {
+  box-shadow: 10px black;
 }
 
 @media (max-width: 767.5px) {
@@ -276,7 +276,7 @@ footer {
 }
 
 .fondo-contacto {
-  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.7), rgba(255, 255, 255, 0)), url(../../img/fondo-contacto-2.jpeg);
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.7), rgba(255, 255, 255, 0)), url(/img/fondo-contacto-2.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -284,7 +284,7 @@ footer {
 .todo {
   display: flex;
   justify-content: center;
-  margin: 50px 0;
+  margin: 70px;
 }
 
 .contacto-form {
