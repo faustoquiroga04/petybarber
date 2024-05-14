@@ -1,6 +1,6 @@
 @import "../utilities/variables";
 @import "../utilities/mixins";
-.servicio {
+.servicio-contenedor {
     p {
         width: 50%; 
         font-size: 25px;
@@ -12,6 +12,12 @@
     }
 }
 
+.cabello-masculino,
+  .dibujo,
+  .cejas {
+    
+   }
+
 @media (max-width: 991px) {
   .cabello-masculino,
   .cabello-femenino,
@@ -22,7 +28,7 @@
     flex-flow: column wrap;
     margin: 20px 0;
   }
-  .servicio {
+  .servicio-contenedor {
     h3 {
         margin-bottom: 20px !important;
     }
