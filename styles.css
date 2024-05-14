@@ -227,10 +227,6 @@ footer {
   font-size: 18px;
 }
 
-.corte-1 {
-  box-shadow: 10px black;
-}
-
 @media (max-width: 767.5px) {
   .cortes img {
     width: 90%;
