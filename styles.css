@@ -179,19 +179,22 @@ footer {
   font-size: 45px;
 }
 
+.servicio-contenedor {
+  margin: 100px 0;
+}
 .servicio-contenedor .nombre-parrafo {
   flex-direction: column;
   margin: 20px;
 }
 .servicio-contenedor .nombre-parrafo h3 {
   width: fit-content;
-  font-size: 40px;
+  font-size: 50px;
 }
 .servicio-contenedor .nombre-parrafo p {
   padding: 20px;
   margin-top: 20px;
   width: 90%;
-  font-size: 25px;
+  font-size: 30px;
   background-color: rgba(0, 0, 0, 0.3);
 }
 .servicio-contenedor img {
@@ -221,16 +224,16 @@ footer {
     margin: 20px auto;
   }
   .servicio-contenedor .nombre-parrafo h3 {
+    font-size: 20px;
     margin: 0 auto;
     text-align: center;
     width: 100%;
-    font-size: 35px;
   }
   .servicio-contenedor .nombre-parrafo p {
     margin: 10px auto;
     text-align: center !important;
     width: 100%;
-    font-size: 25px;
+    font-size: 18px;
     padding: 5px;
   }
   .servicio-contenedor .nombre-parrafo img {
