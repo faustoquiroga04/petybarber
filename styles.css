@@ -207,7 +207,7 @@ footer {
 
 @media (max-width: 991px) {
   .servicio-contenedor {
-    margin: auto 0;
+    margin: 50px auto;
     width: 100%;
   }
   .servicio-contenedor .servicio {
@@ -224,7 +224,7 @@ footer {
     margin: 0 auto;
     text-align: center;
     width: 100%;
-    font-size: 30px;
+    font-size: 35px;
   }
   .servicio-contenedor .nombre-parrafo p {
     margin: 10px auto;
