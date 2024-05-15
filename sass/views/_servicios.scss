@@ -1,22 +1,32 @@
 @import "../utilities/variables";
 @import "../utilities/mixins";
+
+.h2-servicios {
+}
+
+
 .servicio-contenedor {
+  //background-image: linear-gradient(to left, #101419 60%, #292f36 90%,#444b53);
+  background-image: linear-gradient(to left, #444b53 5%, #292f36 15%, #101419 50%, #292f36 85%, #444b53 95%);
+  color: white;
     p {
         width: 50%; 
         font-size: 25px;
+        padding: 30px;
+        background-color: rgb(0, 0, 0, 0.3);
     }
     img {
         max-width: 350px;
         max-height: 400px;
-        margin: 0 20px;
+        margin: 0 20px 40px;
     }
 }
 
-.cabello-masculino,
-  .dibujo,
-  .cejas {
-    
-   }
+.servicio-derecha {
+}
+
+.body-bg {
+}
 
 @media (max-width: 991px) {
   .cabello-masculino,
@@ -47,3 +57,7 @@
     }
   }
 }
+
+
+  
+  

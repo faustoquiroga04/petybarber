@@ -168,14 +168,20 @@ footer {
   background-color: #1b497c;
 }
 
+.servicio-contenedor {
+  background-image: linear-gradient(to left, #444b53 5%, #292f36 15%, #101419 50%, #292f36 85%, #444b53 95%);
+  color: white;
+}
 .servicio-contenedor p {
   width: 50%;
   font-size: 25px;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 .servicio-contenedor img {
   max-width: 350px;
   max-height: 400px;
-  margin: 0 20px;
+  margin: 0 20px 40px;
 }
 
 @media (max-width: 991px) {
