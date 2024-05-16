@@ -7,9 +7,16 @@
     background-size: cover;
     background-repeat: no-repeat;
   }
+
+  .h2-contacto {
+    font-size: 50px;
+    background-color: rgb(0, 0, 0, .8);
+    border-radius: 5px
+  }
+
   .todo {
     @include flexbox-center;
-    margin: 70px;
+    margin: 70px 0;
   }
   .contacto-form {
     width: 50%;
@@ -25,12 +32,16 @@
     max-height: 500px;
   }
 
-  @media (max-width: 1100px) {
+  @media (max-width: 1300px) {
+    .h2-contacto {
+      font-size: 30px;
+    }
+
     .todo {
       display: flex;
       justify-content: center;
     }
-  
+    
     .contacto-form {
       margin-left: 0;
       margin-top: 20px;
