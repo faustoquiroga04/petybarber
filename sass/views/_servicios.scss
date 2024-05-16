@@ -20,8 +20,12 @@
     h3 {
       width: fit-content;
       font-size: 50px;
+      box-shadow:  0 0 20px wheat;
+      padding: 10px;
+      border-radius: 5px;
     }
     p {
+      box-shadow:  0 0 20px rgb(0, 0, 0);
       padding: 20px;
       margin-top: 20px;
       width: 90%;
@@ -30,6 +34,7 @@
     }
   }
     img {
+        box-shadow:  0 0 20px rgb(0, 0, 0);
         max-height: 400px;
         border-radius: 5px;
     }
