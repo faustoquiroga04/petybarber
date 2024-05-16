@@ -21,6 +21,7 @@ h1 {
   width: 80px;
   height: 80px;
   margin: 0 5px;
+  background-color: white;
 }
 .navbar ul li {
   display: inline-block;
@@ -257,7 +258,7 @@ footer {
 
 .h2-cortes {
   font-size: 45px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(235, 224, 210, 0.7);
   width: 100%;
 }
 
