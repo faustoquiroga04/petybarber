@@ -1,0 +1,69 @@
+@import "../utilities/variables";
+@import "../utilities/mixins";
+
+.h2-sobremi {
+  background-color: $color-primario;
+  width: 100%;
+  margin: 60px auto !important;
+  font-size: 45px;
+  color: white;
+}
+
+.punto {
+  @include flexbox-center;
+  align-items: center;
+  box-shadow: 0 0 20px black;
+  border-radius: 10px;
+  margin: 5px;
+  background-color: $color-secundario;
+  padding: 40px;
+  img {
+    max-width: 400px;
+    box-shadow: 0 0 10px black;
+    padding: 0;
+  }
+  .titulo-descripcion {
+    margin: 50px;
+    width: 50%;
+    background-color: #cfbca0a4;
+    box-shadow: 0 0 10px black;
+    h3 {
+      font-size: 35px;
+      margin: 20px 0;
+    }
+    p {
+      padding: 5px;
+      font-size: 30px;
+    }
+  }
+}
+
+@media (max-width: 1150px) {
+  .punto {
+    @include flexbox-center;
+    width: 100%;
+    box-shadow: 0 0 20px black;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: $color-secundario;
+    img {
+      max-width: 400px;
+      box-shadow: 0 0 10px black;
+      padding: 0;
+    }
+    .titulo-descripcion {
+      width: 100%;
+      background-color: #cfbca0a4;
+      box-shadow: 0 0 10px black;
+      margin: 20px 0;
+      h3 {
+        font-size: 25px;
+      }
+      p {
+        width: 100%;
+        padding: 5px;
+        font-size: 18px;
+      }
+    }
+  }
+}
