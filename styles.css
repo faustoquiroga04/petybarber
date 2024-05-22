@@ -231,7 +231,7 @@ footer {
   }
   .servicio-contenedor .nombre-parrafo h3 {
     font-size: 20px;
-    margin: 0 auto;
+    margin: 0 auto 20px;
     text-align: center;
   }
   .servicio-contenedor .nombre-parrafo p {
@@ -242,7 +242,7 @@ footer {
     padding: 5px;
   }
   .servicio-contenedor .nombre-parrafo img {
-    width: 100%;
+    max-height: 200px;
   }
 }
 .boton {
