@@ -368,14 +368,16 @@ footer {
     display: flex;
     justify-content: center;
     width: 100%;
-    box-shadow: 0 0 20px black;
     border-radius: 10px;
     margin: 5px;
+    padding: 20px;
+    background-image: none;
+    background-color: #292f36;
+    box-shadow: 0 0 20px rgba(245, 222, 179, 0.8);
   }
   .punto img {
     max-width: 300px;
     box-shadow: 0 0 10px black;
-    padding: 0;
   }
   .punto .titulo-descripcion {
     width: 100%;
