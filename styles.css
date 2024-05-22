@@ -185,29 +185,29 @@ footer {
 .servicio-contenedor {
   margin: 100px 30px;
 }
+.servicio-contenedor img {
+  width: 400px;
+  border-radius: 5px;
+  box-shadow: 0 0 40px rgb(0, 0, 0);
+}
 .servicio-contenedor .nombre-parrafo {
   flex-direction: column;
   margin: 20px;
 }
 .servicio-contenedor .nombre-parrafo h3 {
   width: fit-content;
-  font-size: 50px;
-  box-shadow: 0 0 10px wheat;
   padding: 10px;
+  font-size: 50px;
   border-radius: 5px;
+  box-shadow: 0 0 10px wheat;
 }
 .servicio-contenedor .nombre-parrafo p {
-  box-shadow: 0 0 20px rgb(0, 0, 0);
+  width: 90%;
   padding: 20px;
   margin-top: 20px;
-  width: 90%;
   font-size: 30px;
   background-color: rgba(0, 0, 0, 0.3);
-}
-.servicio-contenedor img {
-  box-shadow: 0 0 40px rgb(0, 0, 0);
-  max-height: 400px;
-  border-radius: 5px;
+  box-shadow: 0 0 20px rgb(0, 0, 0);
 }
 .servicio-contenedor .nombre-parrafo-derecha h3 {
   margin-left: auto;
@@ -225,7 +225,6 @@ footer {
     flex-flow: column wrap;
   }
   .servicio-contenedor .nombre-parrafo {
-    width: 100%;
     margin: 20px auto;
     order: -1;
   }
@@ -240,9 +239,6 @@ footer {
     width: 100%;
     font-size: 18px;
     padding: 5px;
-  }
-  .servicio-contenedor .nombre-parrafo img {
-    max-height: 200px;
   }
 }
 .boton {
