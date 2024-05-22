@@ -55,13 +55,11 @@
     width: 100%;
     .servicio {
       flex-flow: column wrap;
-      .servicio-img {
-        order: -1;
-      }
     }
     .nombre-parrafo {
       width: 100%;
       margin: 20px auto;
+      order: -1;
       h3 {
         font-size: 20px;
           margin: 0 auto;
