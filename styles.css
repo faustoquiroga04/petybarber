@@ -179,6 +179,7 @@ footer {
   width: 100%;
   margin: 60px auto !important;
   font-size: 45px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
 .servicio-contenedor {
@@ -319,22 +320,29 @@ footer {
   background-color: #1b497c;
 }
 
+.bg-sobremi {
+  background-color: #222c38;
+  color: white;
+}
+
 .h2-sobremi {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
   margin: 60px auto !important;
   font-size: 45px;
   color: white;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
 .punto {
   display: flex;
   justify-content: center;
+  width: 80%;
   align-items: center;
-  box-shadow: 0 0 20px black;
+  box-shadow: 0 0 20px rgba(245, 222, 179, 0.8);
   border-radius: 10px;
   margin: 5px;
-  background-color: #a48b65;
+  background-image: linear-gradient(to left, #444b53 5%, #292f36 15%, #101419 50%, #292f36 85%, #444b53 95%);
   padding: 40px;
 }
 .punto img {
@@ -345,7 +353,7 @@ footer {
 .punto .titulo-descripcion {
   margin: 50px;
   width: 50%;
-  background-color: rgba(207, 188, 160, 0.6431372549);
+  background-color: rgba(1, 8, 14, 0.2588235294);
   box-shadow: 0 0 10px black;
 }
 .punto .titulo-descripcion h3 {
@@ -361,11 +369,10 @@ footer {
   .punto {
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 100% !important;
     box-shadow: 0 0 20px black;
     border-radius: 10px;
     margin: 5px;
-    background-color: #a48b65;
   }
   .punto img {
     max-width: 400px;
@@ -374,7 +381,6 @@ footer {
   }
   .punto .titulo-descripcion {
     width: 100%;
-    background-color: rgba(207, 188, 160, 0.6431372549);
     box-shadow: 0 0 10px black;
     margin: 20px 0;
   }

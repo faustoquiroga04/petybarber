@@ -1,21 +1,28 @@
 @import "../utilities/variables";
 @import "../utilities/mixins";
 
+.bg-sobremi {
+  background-color: #222c38;
+  color: white;
+}
+
 .h2-sobremi {
-  background-color: rgb(0, 0, 0, .8);
+  background-color: rgb(0, 0, 0, .5);
   width: 100%;
   margin: 60px auto !important;
   font-size: 45px;
   color: white;
+  box-shadow: 0 0 10px rgb(255, 255, 255, .5);
 }
 
 .punto {
   @include flexbox-center;
+  width: 80%;
   align-items: center;
-  box-shadow: 0 0 20px black;
+  box-shadow: 0 0 20px rgb(245, 222, 179, .8);
   border-radius: 10px;
   margin: 5px;
-  background-color: $color-secundario;
+  background-image: linear-gradient(to left, #444b53 5%, #292f36 15%, #101419 50%, #292f36 85%, #444b53 95%);
   padding: 40px;
   img {
     max-width: 400px;
@@ -25,7 +32,7 @@
   .titulo-descripcion {
     margin: 50px;
     width: 50%;
-    background-color: #cfbca0a4;
+    background-color: #01080e42;
     box-shadow: 0 0 10px black;
     h3 {
       font-size: 35px;
@@ -41,11 +48,10 @@
 @media (max-width: 1150px) {
   .punto {
     @include flexbox-center;
-    width: 100%;
+    width: 100% !important;
     box-shadow: 0 0 20px black;
     border-radius: 10px;
     margin: 5px;
-    background-color: $color-secundario;
     img {
       max-width: 400px;
       box-shadow: 0 0 10px black;
@@ -53,7 +59,6 @@
     }
     .titulo-descripcion {
       width: 100%;
-      background-color: #cfbca0a4;
       box-shadow: 0 0 10px black;
       margin: 20px 0;
       h3 {
