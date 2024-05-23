@@ -8,6 +8,22 @@
     font-size: 45px;
 }
 
+.bg-intro {
+    background-image: radial-gradient(circle, black, rgb(112, 112, 112) 100%);
+    height: 30vh;
+    margin: 50px 0;
+}
+
+.intro-cortes {
+    color: white;
+    font-size: 35px;
+    width: 80%;
+    text-align: center;
+    align-content: center;
+    margin: 0 auto;
+    height: 100%;
+}
+
 .cortes {
     display: flex;
     flex-wrap: wrap;

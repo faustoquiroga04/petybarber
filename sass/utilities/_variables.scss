@@ -11,6 +11,9 @@ $azul-oscuro: #1b497c;
 
 .boton:hover {
     color: white;
-    background-color: $azul-oscuro;
+    background-color: $azul-oscuro !important;
 }
 
+ul {
+    list-style: none;
+}

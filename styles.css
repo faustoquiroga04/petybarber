@@ -6,7 +6,11 @@
 
 .boton:hover {
   color: white;
-  background-color: #1b497c;
+  background-color: #1b497c !important;
+}
+
+ul {
+  list-style: none;
 }
 
 h1 {
@@ -71,7 +75,11 @@ h1 {
 
 .boton:hover {
   color: white;
-  background-color: #1b497c;
+  background-color: #1b497c !important;
+}
+
+ul {
+  list-style: none;
 }
 
 footer {
@@ -90,7 +98,11 @@ footer {
 
 .boton:hover {
   color: white;
-  background-color: #1b497c;
+  background-color: #1b497c !important;
+}
+
+ul {
+  list-style: none;
 }
 
 .carousel-item .banner-mobile {
@@ -103,6 +115,81 @@ footer {
   }
   .banner-mobile {
     display: block !important;
+  }
+}
+.intro {
+  background-color: #161414;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+.intro h2 {
+  font-size: 50px;
+  margin: 30px;
+}
+.intro .puntos-index {
+  padding: 10px;
+  margin: 50px;
+  box-shadow: 0 0 20px #2660a4;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.intro .puntos-index p {
+  width: 100%;
+  font-size: 30px;
+}
+.intro .puntos-index img {
+  max-height: 400px;
+  border-radius: 5px;
+  margin: 50px;
+}
+.intro .puntos-index ul {
+  width: 60%;
+  padding: 0;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: end;
+}
+.intro .puntos-index ul li {
+  text-align: left;
+  margin: 20px 0;
+  font-size: 30px;
+}
+
+@media (max-width: 1400px) {
+  .intro .puntos-index {
+    justify-content: center;
+  }
+  .intro .puntos-index p {
+    margin: 40px 0;
+  }
+  .intro .puntos-index img {
+    margin: 0;
+    padding: 20px;
+  }
+  .intro .puntos-index ul {
+    width: 100%;
+    margin: 0 40px;
+  }
+}
+@media (max-width: 600px) {
+  .intro h2 {
+    font-size: 35px;
+  }
+  .intro .puntos-index {
+    margin: 10px;
+  }
+  .intro .puntos-index p {
+    font-size: 30px;
+    margin: 10px 0;
+  }
+  .intro .puntos-index ul {
+    margin: 10px;
+  }
+  .intro .puntos-index ul li {
+    font-size: 25px;
+    text-align: center;
   }
 }
 .servicios-destacados {
@@ -167,7 +254,11 @@ footer {
 
 .boton:hover {
   color: white;
-  background-color: #1b497c;
+  background-color: #1b497c !important;
+}
+
+ul {
+  list-style: none;
 }
 
 .bg-servicios {
@@ -248,7 +339,11 @@ footer {
 
 .boton:hover {
   color: white;
-  background-color: #1b497c;
+  background-color: #1b497c !important;
+}
+
+ul {
+  list-style: none;
 }
 
 .h2-cortes {
@@ -257,6 +352,22 @@ footer {
   width: 100%;
   margin: 60px auto !important;
   font-size: 45px;
+}
+
+.bg-intro {
+  background-image: radial-gradient(circle, black, rgb(112, 112, 112) 100%);
+  height: 30vh;
+  margin: 50px 0;
+}
+
+.intro-cortes {
+  color: white;
+  font-size: 35px;
+  width: 80%;
+  text-align: center;
+  align-content: center;
+  margin: 0 auto;
+  height: 100%;
 }
 
 .cortes {
@@ -311,7 +422,11 @@ footer {
 
 .boton:hover {
   color: white;
-  background-color: #1b497c;
+  background-color: #1b497c !important;
+}
+
+ul {
+  list-style: none;
 }
 
 .bg-sobremi {
@@ -396,7 +511,11 @@ footer {
 
 .boton:hover {
   color: white;
-  background-color: #1b497c;
+  background-color: #1b497c !important;
+}
+
+ul {
+  list-style: none;
 }
 
 .fondo-contacto {
@@ -457,7 +576,11 @@ footer {
 
 .boton:hover {
   color: white;
-  background-color: #1b497c;
+  background-color: #1b497c !important;
+}
+
+ul {
+  list-style: none;
 }
 
 /*# sourceMappingURL=styles.css.map */
