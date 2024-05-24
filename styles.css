@@ -356,7 +356,7 @@ ul {
 
 .bg-intro {
   background-image: radial-gradient(circle, black, rgb(112, 112, 112) 100%);
-  padding: 20px;
+  padding: 50px;
 }
 .bg-intro .intro-cortes {
   color: white;
