@@ -181,26 +181,26 @@ ul {
   .intro h2 {
     font-size: 30px;
   }
-  .punto-1 {
+  .intro .punto-1 {
     margin: 0 !important;
     padding: 0;
     flex-direction: column;
   }
-  .punto-1 img {
+  .intro .punto-1 img {
     order: -1;
     max-height: 250px;
   }
-  .punto-1 .descripcion {
+  .intro .punto-1 .descripcion {
     width: 100%;
     text-align: center;
   }
-  .punto-1 .descripcion p {
+  .intro .punto-1 .descripcion p {
     font-size: 30px;
   }
-  .punto-1 .descripcion ul {
+  .intro .punto-1 .descripcion ul {
     margin: 0;
   }
-  .punto-1 .descripcion ul li {
+  .intro .punto-1 .descripcion ul li {
     font-size: 20px;
   }
 }

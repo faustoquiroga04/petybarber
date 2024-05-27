@@ -143,27 +143,25 @@
     h2 {
       font-size: 30px;
     }
-  }
-
-
-  .punto-1 {
-    margin: 0 !important;
-    padding: 0;
-    flex-direction: column;
-    img {
-      order: -1;
-      max-height: 250px ;
-    }
-    .descripcion {
-      width: 100%;
-      text-align: center;
-      p {
-        font-size: 30px;
+    .punto-1 {
+      margin: 0 !important;
+      padding: 0;
+      flex-direction: column;
+      img {
+        order: -1;
+        max-height: 250px ;
       }
-      ul {
-        margin: 0;
-        li{
-          font-size: 20px;
+      .descripcion {
+        width: 100%;
+        text-align: center;
+        p {
+          font-size: 30px;
+        }
+        ul {
+          margin: 0;
+          li{
+            font-size: 20px;
+          }
         }
       }
     }
