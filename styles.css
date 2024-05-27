@@ -155,7 +155,7 @@ ul {
 }
 .intro img {
   border-radius: 5px;
-  max-height: 350px;
+  max-width: 350px;
   margin: 30px;
 }
 .intro .descripcion {
@@ -188,7 +188,7 @@ ul {
   }
   .intro .punto-1 img {
     order: -1;
-    max-height: 250px;
+    max-width: 250px;
   }
   .intro .punto-1 .descripcion {
     width: 100%;
