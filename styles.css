@@ -117,62 +117,6 @@ ul {
     display: block !important;
   }
 }
-.intro {
-  background-color: #161414;
-  color: #fff;
-  text-align: center;
-  padding: 20px 0;
-}
-.intro h2 {
-  font-size: 50px;
-  margin: 30px;
-}
-.intro .puntos-index {
-  padding: 10px;
-  margin: 50px;
-  box-shadow: 0 0 20px #2660a4;
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.intro .puntos-index p {
-  width: 100%;
-  font-size: 30px;
-}
-.intro .puntos-index img {
-  max-height: 400px;
-  border-radius: 5px;
-  margin: 50px;
-}
-.intro .puntos-index ul {
-  width: 60%;
-  padding: 0;
-  display: flex;
-  flex-flow: column wrap;
-  align-items: end;
-}
-.intro .puntos-index ul li {
-  text-align: left;
-  margin: 20px 0;
-  font-size: 30px;
-}
-
-@media (max-width: 1400px) {
-  .intro .puntos-index {
-    justify-content: center;
-  }
-  .intro .puntos-index p {
-    margin: 40px 0;
-  }
-  .intro .puntos-index img {
-    margin: 0;
-    padding: 20px;
-  }
-  .intro .puntos-index ul {
-    width: 100%;
-    margin: 0 40px;
-  }
-}
 @media (max-width: 600px) {
   .intro h2 {
     font-size: 35px;
@@ -192,8 +136,73 @@ ul {
     text-align: center;
   }
 }
-.servicios-destacados {
-  background-color: #a48b65;
+.bg-index {
+  background: linear-gradient(to bottom, black, rgb(54, 53, 52));
+}
+
+.intro {
+  margin-top: 30px;
+  color: white;
+  border-radius: 10px;
+}
+.intro h2 {
+  text-align: center;
+  font-size: 50px;
+}
+.intro .punto-1,
+.intro .punto-2 {
+  margin: 50px 0;
+}
+.intro img {
+  border-radius: 5px;
+  max-height: 350px;
+  margin: 30px;
+}
+.intro .descripcion {
+  width: 60%;
+  padding: 0 30px;
+}
+.intro .descripcion p {
+  font-size: 40px;
+  text-align: center;
+}
+.intro .descripcion ul {
+  padding: 0;
+}
+.intro .descripcion ul li {
+  font-size: 25px;
+  margin: 30px 0;
+}
+
+@media (max-width: 991.5px) {
+  .intro {
+    margin-top: 20px;
+  }
+  .intro h2 {
+    font-size: 30px;
+  }
+  .punto-1 {
+    margin: 0 !important;
+    padding: 0;
+    flex-direction: column;
+  }
+  .punto-1 img {
+    order: -1;
+    max-height: 250px;
+  }
+  .punto-1 .descripcion {
+    width: 100%;
+    text-align: center;
+  }
+  .punto-1 .descripcion p {
+    font-size: 30px;
+  }
+  .punto-1 .descripcion ul {
+    margin: 0;
+  }
+  .punto-1 .descripcion ul li {
+    font-size: 20px;
+  }
 }
 .servicios-destacados h2 {
   margin: 50px 0 40px;
@@ -222,7 +231,6 @@ ul {
 }
 .turnos {
   color: white;
-  background-color: #232d38;
 }
 .turnos .horarios-turno h3 {
   font-size: 35px;

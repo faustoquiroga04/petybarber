@@ -16,63 +16,65 @@
   }
 
   
-.intro {
-  background-color: #161414;
-  color: #fff; 
-  text-align: center;
-  padding: 20px 0;
-  h2 {
-    font-size: 50px;
-    margin: 30px;
-  }
-  .puntos-index {
-    padding: 10px;
-    margin: 50px;
-    box-shadow: 0 0 20px $color-azul;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    p {
-      width: 100%;
-      font-size: 30px;
-    }
-    img {
-      max-height: 400px;
-      border-radius: 5px;
-      margin: 50px;
-      }
-    ul {
-      width: 60%;
-      padding: 0;
-      display: flex;
-      flex-flow: column wrap;
-      align-items: end;
-    li {
-      text-align: left;
-      margin: 20px 0;
-      font-size: 30px;
-      }
-    }
-  }
-}
-@media (max-width: 1400px){
-  .intro {
-    .puntos-index {
-      p {
-        margin: 40px 0;
-      }
-      justify-content: center;
-      img {
-        margin: 0;
-        padding: 20px;
-      }
-      ul {
-        width: 100%;
-        margin: 0 40px;
-      }
-    }  
-  }
-}
+// .intro {
+//   background-color: #161414;
+//   color: #fff; 
+//   text-align: center;
+//   padding: 20px 0;
+//   h2 {
+//     font-size: 50px;
+//     margin: 30px;
+//   }
+//   .puntos-index {
+//     border-radius: 10px;
+//     padding: 10px;
+//     margin: 50px;
+//     box-shadow: 0 0 20px $color-azul;
+//     display: flex;
+//     align-items: center;
+//     flex-wrap: wrap;
+//     p {
+//       width: 100%;
+//       font-size: 30px;
+//     }
+//     img {
+//       max-height: 400px;
+//       border-radius: 5px;
+//       margin: 50px;
+//       }
+//     ul {
+//       width: 60%;
+//       padding: 0;
+//       display: flex;
+//       flex-flow: column wrap;
+//       align-items: end;
+//     li {
+//       text-align: left;
+//       margin: 20px 0;
+//       font-size: 30px;
+//       }
+//     }
+//   }
+// }
+// @media (max-width: 1400px){
+//   .intro {
+//     .puntos-index {
+//       p {
+//         margin: 40px 0;
+//       }
+//       justify-content: center;
+//       img {
+//         margin: 0;
+//         padding: 20px;
+//       }
+//       ul {
+//         width: 100%;
+//         margin: 0 40px;
+//       }
+//     }  
+//   }
+// }
+
 
 @media (max-width: 600px) {
   .intro {
@@ -96,9 +98,81 @@
   }
 }
 
+.bg-index {
+  background: linear-gradient(to bottom, black, rgb(54, 53, 52));
+}
+
+.intro {
+  margin-top: 30px;
+  color: white;
+  border-radius: 10px;
+  h2 {
+    text-align: center;
+    font-size: 50px;
+  }
+  .punto-1, 
+  .punto-2 {
+    margin: 50px 0;
+    //box-shadow: 0 0 20px rgba(255, 186, 129, 0.7);
+  }
+  img {
+    border-radius: 5px;
+    max-height: 350px;
+    margin: 30px;
+  }
+  .descripcion {
+    width: 60%;
+    padding: 0 30px;
+    p {
+      font-size: 40px;
+      text-align: center;
+    }
+    ul {
+      padding: 0;
+      li {
+        font-size: 25px;
+        margin: 30px 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 991.5px){
+  .intro {
+    margin-top: 20px;
+    h2 {
+      font-size: 30px;
+    }
+  }
+
+
+  .punto-1 {
+    margin: 0 !important;
+    padding: 0;
+    flex-direction: column;
+    img {
+      order: -1;
+      max-height: 250px ;
+    }
+    .descripcion {
+      width: 100%;
+      text-align: center;
+      p {
+        font-size: 30px;
+      }
+      ul {
+        margin: 0;
+        li{
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
 //Servicios Destacados
   .servicios-destacados {
-    background-color: $color-secundario;
+    //background-color: $color-secundario;
     //background-image: linear-gradient( 174.2deg,  rgba(255,244,228,1) 7.1%, rgba(240,246,238,1) 67.4% );
     h2 {
         margin: 50px 0 40px;
@@ -130,7 +204,7 @@
 //Turno
   .turnos {
     color: white;
-    background-color: #232d38;
+    //background-color: #232d38;
 
     .horarios-turno {
       h3 {
