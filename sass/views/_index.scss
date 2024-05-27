@@ -117,7 +117,7 @@
   }
   img {
     border-radius: 5px;
-    max-width: 350px;
+    width: 350px;
     margin: 30px;
   }
   .descripcion {
@@ -149,7 +149,7 @@
       flex-direction: column;
       img {
         order: -1;
-        max-width: 250px ;
+        width: 250px ;
       }
       .descripcion {
         width: 100%;
