@@ -12,18 +12,18 @@
   margin: 60px auto !important;
   font-size: 45px;
   color: white;
-  box-shadow: 0 0 10px rgb(255, 255, 255, .5);
+  box-shadow: 0 0 10px rgb(255, 255, 255, .2);
 }
 
 .punto {
   @include flexbox-center;
   width: 80%;
   align-items: center;
-  box-shadow: 0 0 20px rgb(245, 222, 179, .8);
   border-radius: 10px;
   margin: 5px;
-  background-image: linear-gradient(to left, #444b53 5%, #292f36 15%, #101419 50%, #292f36 85%, #444b53 95%);
+  background-color: rgba(31, 33, 36, 0.7);
   padding: 40px;
+  box-shadow: 0 0 10px rgb(0, 0, 0, .5);
   img {
     max-width: 400px;
     box-shadow: 0 0 10px black;
@@ -46,31 +46,33 @@
 }
 
 @media (max-width: 1376px) {
-  .punto {
-    @include flexbox-center;
-    width: 100%;
-    border-radius: 10px;
-    margin: 5px;
-    padding: 20px;
-    background-image: none;
-    background-color: #292f36;
-    box-shadow: 0 0 20px rgb(245, 222, 179, .8);
-    img {
-      max-width: 300px;
-      box-shadow: 0 0 10px black;
-    }
-    .titulo-descripcion {
+  .contenedor-puntos {
+    padding: 0 30px;
+    .punto {
+      @include flexbox-center;
       width: 100%;
-      box-shadow: 0 0 10px black;
-      margin: 20px 0;
-      h3 {
-        font-size: 25px;
+      border-radius: 10px;
+      margin: 5px;
+      padding: 20px;
+      background-image: none;
+      background-color: #292f36;
+      img {
+        max-width: 300px;
+        box-shadow: 0 0 10px black;
       }
-      p {
+      .titulo-descripcion {
         width: 100%;
-        padding: 5px;
-        font-size: 18px;
+        box-shadow: 0 0 10px black;
+        margin: 20px 0;
+        h3 {
+          font-size: 25px;
+        }
+        p {
+          width: 100%;
+          padding: 5px;
+          font-size: 18px;
+        }
       }
     }
-  }
+  } 
 }
