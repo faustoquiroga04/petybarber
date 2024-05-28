@@ -2,7 +2,7 @@
 @import "../utilities/mixins";
 
 .bg-sobremi {
-  background-color: #222c38;
+  background-color: #1c1f24;
   color: white;
 }
 
@@ -21,9 +21,9 @@
   align-items: center;
   border-radius: 10px;
   margin: 5px;
-  background-color: rgba(31, 33, 36, 0.7);
+  background-color: rgba(16, 16, 17, 0.3);
   padding: 40px;
-  box-shadow: 0 0 10px rgb(0, 0, 0, .5);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
   img {
     max-width: 400px;
     box-shadow: 0 0 10px black;
