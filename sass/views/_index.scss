@@ -15,67 +15,6 @@
     }
   }
 
-  
-// .intro {
-//   background-color: #161414;
-//   color: #fff; 
-//   text-align: center;
-//   padding: 20px 0;
-//   h2 {
-//     font-size: 50px;
-//     margin: 30px;
-//   }
-//   .puntos-index {
-//     border-radius: 10px;
-//     padding: 10px;
-//     margin: 50px;
-//     box-shadow: 0 0 20px $color-azul;
-//     display: flex;
-//     align-items: center;
-//     flex-wrap: wrap;
-//     p {
-//       width: 100%;
-//       font-size: 30px;
-//     }
-//     img {
-//       max-height: 400px;
-//       border-radius: 5px;
-//       margin: 50px;
-//       }
-//     ul {
-//       width: 60%;
-//       padding: 0;
-//       display: flex;
-//       flex-flow: column wrap;
-//       align-items: end;
-//     li {
-//       text-align: left;
-//       margin: 20px 0;
-//       font-size: 30px;
-//       }
-//     }
-//   }
-// }
-// @media (max-width: 1400px){
-//   .intro {
-//     .puntos-index {
-//       p {
-//         margin: 40px 0;
-//       }
-//       justify-content: center;
-//       img {
-//         margin: 0;
-//         padding: 20px;
-//       }
-//       ul {
-//         width: 100%;
-//         margin: 0 40px;
-//       }
-//     }  
-//   }
-// }
-
-
 @media (max-width: 600px) {
   .intro {
     h2 {
@@ -202,7 +141,6 @@
 //Turno
   .turnos {
     color: white;
-    //background-color: #232d38;
 
     .horarios-turno {
       h3 {
