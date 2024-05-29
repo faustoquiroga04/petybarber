@@ -15,7 +15,7 @@
 
 .servicio-contenedor {
   margin: 100px 30px;
-  img {
+  .servicio-img {
     width: 400px;
     border-radius: 5px;
     box-shadow:  0 0 40px rgb(0, 0, 0);
@@ -57,7 +57,7 @@
   .servicio-contenedor {
     margin: 50px auto;
     width: 100%;
-    img {
+    .servicio-img {
       display: none;
     }
     .servicio {

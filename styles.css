@@ -329,7 +329,7 @@ ul {
 .servicio-contenedor {
   margin: 100px 30px;
 }
-.servicio-contenedor img {
+.servicio-contenedor .servicio-img {
   width: 400px;
   border-radius: 5px;
   box-shadow: 0 0 40px rgb(0, 0, 0);
@@ -369,7 +369,7 @@ ul {
     margin: 50px auto;
     width: 100%;
   }
-  .servicio-contenedor img {
+  .servicio-contenedor .servicio-img {
     display: none;
   }
   .servicio-contenedor .servicio {
