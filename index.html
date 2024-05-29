@@ -153,7 +153,7 @@
       </div>
       <!-- Termina Carousel -->
 
-      <div class="container-fluid">
+      <div class="container-fluid p-0">
         <div class="intro">
           <h2><strong>Bienvenido a PetyBarber</strong></h2>
           <div class="punto-1 d-flex justify-content-evenly align-items-center">
@@ -221,62 +221,64 @@
       </div>
       <!-- Termina Servicios Destacados -->
 
-      <div class="turnos p-5">
-        <h2 class="text-center">Agenda tu Turno</h2>
-        <div class="m-0 row align-items-center justify-content-center">
-          <!-- Horarios -->
-          <div class="text-center horarios-turno col-lg-4 text-end">
-            <h3>Horarios de Atención:</h3>
-            <p>Lunes a Viernes: 9:00 AM - 7:00 PM</p>
-            <p>Sábado: 9:00 AM - 3:00 PM</p>
-            <p>Domingo: Cerrado</p>
-          </div>
-          <!-- Formulario -->
-          <div class="col-lg-4">
-            <form id="turnos" class="form-index">
-              <div class="mb-3">
-                <label for="nombre" class="form-label">Nombre</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="nombre"
-                  placeholder="Ingresa tu nombre"
-                />
-              </div>
-              <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="email"
-                  placeholder="Ingresa tu email"
-                />
-              </div>
-              <div class="mb-3">
-                <label for="telefono" class="form-label">Teléfono</label>
-                <input
-                  type="tel"
-                  class="form-control"
-                  id="telefono"
-                  placeholder="Ingresa tu teléfono"
-                />
-              </div>
-              <div class="mb-3">
-                <label for="fecha">Fecha del turno:</label>
-                <input class="me-5" type="date" name="fecha" required />
-              </div>
-              <div class="mb-3">
-                <label for="hora">Hora del turno:</label>
-                <input class="me-5" type="time" name="hora" required />
-              </div>
-
-              <button type="submit" class="boton-form-index boton btn">
-                Enviar
-              </button>
-            </form>
-          </div>
+      <div id="turnos" class="agenda row m-0 d-flex justify-content-center align-items-center">
+        <div class="descr-agenda">
+        <h2>Reserva Tu Turno en PetyBarber</h2>
+        <p>Hemos implementado un sistema de reservas en línea. Completa el formulario a continuación con tus datos y selecciona la fecha y hora que mejor te convengan. Confirmaremos tu turno lo antes posible.</p>
         </div>
-      </div>
+        <div class="horarios col-lg-5 col-md-6 col-sm-12">
+            <h3>Horarios de Trabajo</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Día</th>
+                        <th>Horario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lunes a Viernes</td>
+                        <td>09:00 - 18:00</td>
+                    </tr>
+                        <td>Sábado</td>
+                        <td>09:00 - 14:00</td>
+                    </tr>
+                    <tr>
+                        <td>Domingo</td>
+                        <td>Cerrado</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+        <form class="form-agenda col-lg-5 col-md-6 col-sm-12">
+            <h3>Reservar Turno</h3>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="nombre" placeholder="Nombre" required/>
+                <label for="nombre">Nombre</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="tel" class="form-control" id="telefono" placeholder="Teléfono" required/>
+                <label for="telefono">Teléfono</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="email" placeholder="Correo Electrónico" required/>
+                <label for="email">Correo Electrónico</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="date" class="form-control" id="fecha" placeholder="Fecha" required/>
+                <label for="fecha">Fecha</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="time" class="form-control" id="hora" placeholder="Hora" required/>
+                <label for="hora">Hora</label>
+            </div>
+            <button type="submit" class="form-boton btn btn-primary">Enviar Turno</button>
+        </form>
+    </div>
+
+
     </main>
 
     <footer class="py-5">
