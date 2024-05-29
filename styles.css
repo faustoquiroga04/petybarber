@@ -354,7 +354,7 @@ ul {
   background-color: rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 20px rgb(0, 0, 0);
 }
-.servicio-contenedor .nombre-parrafo img {
+.servicio-contenedor .nombre-parrafo .servicio-mobile {
   display: none;
 }
 .servicio-contenedor .nombre-parrafo-derecha h3 {
@@ -391,7 +391,7 @@ ul {
     font-size: 18px;
     padding: 5px;
   }
-  .servicio-contenedor .nombre-parrafo img {
+  .servicio-contenedor .nombre-parrafo .servicio-mobile {
     display: block;
     margin-bottom: 20px !important;
   }
