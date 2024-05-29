@@ -39,6 +39,9 @@
       background-color: rgb(0, 0, 0, 0.3);
       box-shadow:  0 0 20px rgb(0, 0, 0); 
     }
+    img {
+      display: none;
+    }
   }
   .nombre-parrafo-derecha {
     h3 {
@@ -54,6 +57,9 @@
   .servicio-contenedor {
     margin: 50px auto;
     width: 100%;
+    img {
+      display: none;
+    }
     .servicio {
       flex-flow: column wrap;
     }
@@ -71,6 +77,10 @@
         width: 100%;
         font-size: 18px;
         padding: 5px;
+      }
+      img {
+        display: block;
+        margin-bottom: 20px !important;
       }
     }
   }
