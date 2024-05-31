@@ -6,6 +6,8 @@ h1 {
 
 .navbar {
     background-color: $color-primario;
+    box-shadow: 0 0 15px $color-primario;
+    z-index: 1;
     width: 100%;
     .logo {
         width: 80px;

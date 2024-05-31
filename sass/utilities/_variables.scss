@@ -6,7 +6,7 @@ $azul-oscuro: #1b497c;
 
 .boton {
     color: white;
-    background-color: $color-azul;
+    background-color: $color-azul !important;
 }
 
 .boton:hover {
