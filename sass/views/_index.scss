@@ -196,6 +196,10 @@
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  a {
+    color: white;
+    text-decoration: none;
+  }
 }
 
 .cta-button:hover {
@@ -285,7 +289,7 @@ th, td {
   
   .services-carousel {
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 20px;
   }
   
   .service-image {
