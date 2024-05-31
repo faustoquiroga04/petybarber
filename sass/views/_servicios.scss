@@ -2,7 +2,8 @@
 @import "../utilities/mixins";
 
 .bg-servicios {
-  background-image: linear-gradient(to left, #444b53 5%, #292f36 15%, #101419 50%, #292f36 85%, #444b53 95%);
+  //background-image: linear-gradient(to left, #444b53 5%, #292f36 15%, #101419 50%, #292f36 85%, #444b53 95%);
+  background-color: rgba(0, 0, 0, 0.918);
 }
 
 .h2-servicios {
