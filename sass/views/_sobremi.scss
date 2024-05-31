@@ -2,7 +2,7 @@
 @import "../utilities/mixins";
 
 .bg-sobremi {
-  background-color: #1c1f24;
+  background-color: rgba(0, 0, 0, 0.918);
   color: white;
 }
 
@@ -12,7 +12,7 @@
   margin: 60px auto !important;
   font-size: 45px;
   color: white;
-  box-shadow: 0 0 10px rgb(255, 255, 255, .2);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
 .punto {
@@ -21,18 +21,19 @@
   align-items: center;
   border-radius: 10px;
   margin: 5px;
-  background-color: rgba(16, 16, 17, 0.3);
+  background-color: #2c2f3350;
+  box-shadow: 0 0 20px black;
   padding: 40px;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
   img {
     max-width: 400px;
     box-shadow: 0 0 10px black;
     padding: 0;
   }
   .titulo-descripcion {
+    border-radius: 5px;
     margin: 50px;
     width: 50%;
-    background-color: #01080e42;
+    background-color: #373a4098;
     box-shadow: 0 0 10px black;
     h3 {
       font-size: 35px;
@@ -55,7 +56,6 @@
       margin: 5px;
       padding: 20px;
       background-image: none;
-      background-color: #292f36;
       img {
         max-width: 300px;
         box-shadow: 0 0 10px black;

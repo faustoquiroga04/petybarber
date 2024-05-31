@@ -4,6 +4,7 @@
 .bg-servicios {
   //background-image: linear-gradient(to left, #444b53 5%, #292f36 15%, #101419 50%, #292f36 85%, #444b53 95%);
   background-color: rgba(0, 0, 0, 0.918);
+  overflow-x: hidden;
 }
 
 .h2-servicios {
@@ -11,7 +12,7 @@
   width: 100%;
   margin: 60px auto !important;
   font-size: 45px;
-  box-shadow: 0 0 10px rgb(255, 255, 255, .2);
+  box-shadow: 0 0 10px rgb(255, 255, 255, .5);
 }
 
 .servicio-contenedor {

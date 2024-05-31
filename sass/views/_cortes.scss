@@ -1,15 +1,20 @@
 @import "../utilities/variables";
 
+.bg-cortes {
+    background-color: rgba(0, 0, 0, 0.911);
+}
+
 .h2-cortes {
     background-color: rgb(0, 0, 0, .8);
     color: white;
     width: 100%;
     margin: 60px auto !important;
     font-size: 45px;
+    box-shadow: 0 0 10px rgb(255, 255, 255, .5);
 }
 
 .bg-intro {
-    background-image: radial-gradient(circle, black, rgb(112, 112, 112) 100%);
+    background-color: rgba(83, 83, 83, 0.151);
     padding: 50px;
     .intro-cortes {
         color: white;
@@ -28,8 +33,9 @@
 }
 .corte {
     padding: 0;
-    box-shadow:  0 0 20px rgb(131, 115, 80);
-    background-color: rgb(235, 224, 210);
+    background-color: #2c2f33;
+    box-shadow: 0 0 30px #000000;
+    border-radius: 5px;
     max-width: 400px;
     margin: 50px;
     display: flex;
@@ -44,6 +50,7 @@
         width: 100%;
         text-align: center;
         margin: 20px 0;
+        color: white;
     }
     img {
         width: 100%;
@@ -54,9 +61,10 @@
         text-align: center;
         font-size: 20px;
         width: 90%;
-        padding: 5px;
+        padding: 10px;
         border-radius: 5px;
-        background-color: rgba(214, 193, 151, 0.3);
+        background-color: #40444b;
+        color: white;
     }
 }
 @media (max-width: 767.5px) {
