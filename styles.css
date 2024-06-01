@@ -391,6 +391,9 @@ ul {
 }
 
 @media (max-width: 991px) {
+  body {
+    overflow-x: hidden;
+  }
   .servicio-contenedor {
     margin: 50px auto;
     width: 100%;
@@ -508,7 +511,8 @@ ul {
     padding: 0;
   }
   .bg-intro .intro-cortes {
-    font-size: 30px;
+    width: 100% !important;
+    font-size: 25px !important;
   }
   .corte {
     margin: 30px 20px;
@@ -562,10 +566,10 @@ ul {
   padding: 0;
 }
 .punto .titulo-descripcion {
-  border-radius: 5px;
+  border-radius: 20px;
   margin: 50px;
   width: 50%;
-  background-color: rgba(55, 58, 64, 0.5960784314);
+  background-color: rgba(55, 58, 64, 0.7411764706);
   box-shadow: 0 0 10px black;
 }
 .punto .titulo-descripcion h3 {
