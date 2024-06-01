@@ -2,69 +2,66 @@
 
 .bg-cortes {
     background-color: rgba(0, 0, 0, 0.911);
-}
-
-.h2-cortes {
-    background-color: rgb(0, 0, 0, .8);
-    color: white;
-    width: 100%;
-    margin: 60px auto !important;
-    font-size: 45px;
-    box-shadow: 0 0 10px rgb(255, 255, 255, .5);
-}
-
-.bg-intro {
-    background-color: rgba(83, 83, 83, 0.151);
-    padding: 50px;
-    .intro-cortes {
+    .h2-cortes {
+        background-color: rgb(0, 0, 0, .8);
         color: white;
-        font-size: 35px;
-        width: 80%;
-        text-align: center;
-        align-content: center;
-        margin: 0 auto;
+        width: 100%;
+        margin: 60px auto !important;
+        font-size: 45px;
+        box-shadow: 0 0 10px rgb(255, 255, 255, .5);
+    }
+    .bg-intro {
+        background-color: rgba(83, 83, 83, 0.151);
+        padding: 50px;
+        .intro-cortes {
+            color: white;
+            font-size: 35px;
+            width: 80%;
+            text-align: center;
+            align-content: center;
+            margin: 0 auto;
+        }
     }
 }
-
 .cortes {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
-.corte {
-    padding: 0;
-    background-color: #2c2f33;
-    box-shadow: 0 0 30px #000000;
-    border-radius: 5px;
-    max-width: 400px;
-    margin: 50px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    transition: transform .3s ease; /* Transición suave */
-     &:hover {
-       transform: scale(1.1); /* Aumenta el tamaño al hacer hover */
-    }
-    h3 {
-        width: 100%;
-        text-align: center;
-        margin: 20px 0;
-        color: white;
-    }
-    img {
-        width: 100%;
-        padding: 20px;
-        border-radius: 30px;
-    }
-    p {
-        text-align: center;
-        font-size: 20px;
-        width: 90%;
-        padding: 10px;
+    .corte {
+        padding: 0;
+        background-color: #2c2f33;
+        box-shadow: 0 0 30px #000000;
         border-radius: 5px;
-        background-color: #40444b;
-        color: white;
+        max-width: 400px;
+        margin: 50px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        transition: transform .3s ease; /* Transición suave */
+         &:hover {
+           transform: scale(1.1); /* Aumenta el tamaño al hacer hover */
+        }
+        h3 {
+            width: 100%;
+            text-align: center;
+            margin: 20px 0;
+            color: white;
+        }
+        img {
+            width: 100%;
+            padding: 20px;
+            border-radius: 30px;
+        }
+        p {
+            text-align: center;
+            font-size: 20px;
+            width: 90%;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #40444b;
+            color: white;
+        }
     }
 }
 @media (max-width: 767.5px) {
@@ -80,7 +77,6 @@
     .corte:hover {
         transform: none;
     }
-    
 }
 
 
